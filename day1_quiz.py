@@ -13,7 +13,7 @@
 # -  System terminal
 # 6. city = "New York"
 # 7. str()
-# 8. Single-line command: #, Multi-line command: ("""""")
+# 8. Single-line command: #, Multi-line command: (""")
 # 9. Git is a version control system (VCS) that runs locally on your computer while Github is a cloud-based hosting service for git repositories.
 # 10. python-learning
  
