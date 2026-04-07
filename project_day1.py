@@ -1,16 +1,16 @@
 """"
 Day 1 project for Innovempia
 """
-Myname = "Tomilechi"
-careername = "Backend Developer"
-companyname = "Innovempia"
+my_name = "Tomilechi"
+career_name = "Backend Developer"
+company_name = "Innovempia"
 
 print("=" * 40)
 print("MY PYTHON JOURNEY CARD")
 
-print("Name: " + Myname)
-print("Career: " + careername)
-print("Company: " + companyname)
+print("Name: " + my_name)
+print("Career: " + career_name)
+print("Company: " + company_name)
 print("I learned installing Python") 
 print("I learned running code in the terminal")
 print("I learned creating variables")
