@@ -4,9 +4,9 @@
 
 #3. Strings immutability means strings cannot be changed except you overwrite it.
 
-#4. print(word.upper())
+#4. word = word.upper() 
 
-#5. .strip() remooves white spaces from both the beginning and the end while .Istrip() removes white spaces from the left side(beginning)
+#5. .strip() remooves white spaces from both the beginning and the end while .lstrip() removes white spaces from the left side(beginning)
 
 #6. print(email.endswith("@gmail.com")) = bool
  #7. By default, it is a string (str). You fix it by addiing int to convert to an integer or float to convert to float, e.g 
@@ -15,7 +15,7 @@
 #8. isdigit() method returns True if the string contains only numbers
 
 #9. sentence = "I love Innovempia"
-# print(len(word))
+# print(len(sentence))
 
 #10. sentence = "cats and dogs"
-# print(senetence.replace("dogs", "birds"))
+# print(sentence.replace("dogs", "birds"))
