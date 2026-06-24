@@ -5,4 +5,7 @@
 # 5. x = 5, y = 10, x > 3; returns True, y < 5; returns False. This is because the comparison operator > checks if x is greater than 3, which is true, while the comparison operator < checks if y is less than 5, which is false.
 # 6. The purpose of elif statement is to provide an additional condition to check if the previous if statement is false. It allows for multiple conditions to be checked in a single block of code, and only one of the conditions will be executed. If the if statement is false, the program will check the elif statement, and if that is also false, it will move on to the next elif statement or the else statement if there are no more elif statements.
 # 7. If you write an if statement in Python but forget to indent the block of code beneath it, Python will immediately stop running your script and throw a IndentationError.
-# 8. 
+# 8. print(10 % 2), print(11 % 2)
+# 9. The output of the code will be: Good
+# 10. In backend development, operators and conditionals are the brain and the nervous system of your application. Without them, code is just a static script that executes a predictable list of instructions from top to bottom, completely identical for every user. With them, your backend transforms into an intelligent, dynamic engine capable of making real-time decisions.
+
