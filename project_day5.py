@@ -1,38 +1,19 @@
 
-
-
 correct_password = "admin1234"
-
 is_locked = True
+attempt = 3
 
-    
-
-for i in range(3):
-        
-        if i == 2:
-            attempt = 3
-            
-            
-            user_input = input("Enter your password: " )
-            user_input = user_input.strip()
-            is_locked = False
-            break
-else:            
-            
-        if user_input == correct_password:
-                print("Access Granted! Welcome to Innovempia. ")
-                   
-
+for attempt in range(attempt):
+    user_input = input("Enter your password: ").strip()
+    if user_input == correct_password:
+        print("Access Granted! Welcome to Innovempia.")
+        break
+    else:
+        remaining = 2 - attempt 
+        if remaining > 0:
+            print("Incorrect password. Attempts left: " + str(remaining))
         else:
-            if is_locked == False:
-                print("Incorrect password. Attempts left: " + str(2 - i))
-                
-            
-            if is_locked == True:
-                print("ACCOUNT LOCKED. Too many failed attemmpts")
-                
-            
-        
+            print("ACCOUNT LOCKED. Too many failed attempts")
 
 
 
