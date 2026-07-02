@@ -1,13 +1,13 @@
 name = input("Enter name: ")
 name = name.strip().title()
 
-age = int(input("Enter age: "))
+age = age = float(input("Enter age: "))
 age = float(age)
 original_total = float(input("Enter total purchase: "))
 
 total_purchase = original_total
 
-discount_applied = "0%"
+discount_applied = "20%"
 
 if age < 13:
     print("Sorry " + name + ", you must be 13 or older to shop here.")
