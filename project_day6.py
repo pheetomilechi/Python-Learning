@@ -1,4 +1,10 @@
 task_queue = ["Fix login bug", "Update database", "Design homepage"]
+task_queue.append("Write unit tests.")
+task_queue.insert(0, "Server Crash")
+for i in range(len(task_queue)):
+    print(str(i + 1) + ". " + task_queue[i])
+    
+    
 
 
 
