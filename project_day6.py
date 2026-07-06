@@ -1,40 +1,32 @@
+
 task_queue = ["Fix login bug", "Update database", "Design homepage"]
+for i in range(len(task_queue)):
+    print(str(i + 1) + ". " + task_queue[i])
+
 task_queue.append("Write unit tests.")
+print(str(len(task_queue)) + ". " + "Write unit tests.")
+
+
 task_queue.insert(0, "Server Crash")
 for i in range(len(task_queue)):
     print(str(i + 1) + ". " + task_queue[i])
-    
-    
 
 
+completed_task = task_queue.pop()
+print("Completed task: " + completed_task)
 
 
+task_queue.remove("Update database")
+print("Removed task: Update database")
 
+if "Fix login bug" in task_queue:
+    print("Login bug still pending!")
+else:
+    print("Login bug fixed!")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print("Final Queue:")
+for i in range(len(task_queue)):
+    print(str(i + 1) + ". " + task_queue[i])
 
 
 # usernames = ["Alice", "Bob", "Charlie", "David", "Eve"]
@@ -66,10 +58,9 @@ for i in range(len(task_queue)):
 
 # # if input_admins in admins:
 # #      print("Access Granted!")
-   
+
 
 # fruits = ["Apple", "Banana", "Cherry"]
 
 # for fruit in fruits:
-#     print("I want to eat a " + fruit) 
-
+#     print("I want to eat a " + fruit)
