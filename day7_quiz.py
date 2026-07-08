@@ -1,0 +1,1 @@
+# 1. The curly brackets {} is used for dictionaries while brackets () is used for tuples.
