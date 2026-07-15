@@ -1,4 +1,13 @@
-
+def format_profile(raw_name = "clean_name", raw_role = "clean_role", raw_company = "clean_company"):
+    cleaned_name = raw_name.strip().title() 
+    cleaned_role = raw_role.strip().title() 
+    cleaned_company = raw_company.strip().title()
+    
+    return( str("Name: {clean_name} | Role: {clean_role} | {clean_company}"))
+    
+    user1_card = format_profile("mOsEs ", "bAckEnd dEvElopEr ", " innovempia ")
+    print(user1_card)
+    
 
 
 
