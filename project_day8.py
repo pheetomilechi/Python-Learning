@@ -1,13 +1,18 @@
-def format_profile(raw_name = "clean_name", raw_role = "clean_role", raw_company = "clean_company"):
-    cleaned_name = raw_name.strip().title() 
-    cleaned_role = raw_role.strip().title() 
-    cleaned_company = raw_company.strip().title()
-    
-    return( str("Name: {clean_name} | Role: {clean_role} | {clean_company}"))
-    
-    user1_card = format_profile("mOsEs ", "bAckEnd dEvElopEr ", " innovempia ")
-    print(user1_card)
-    
+def format_profile(raw_name="clean_name", raw_role="clean_role", raw_company="clean_company"):
+    clean_name = raw_name.strip().title()
+    clean_role = raw_role.strip().title()
+    clean_company = raw_company.strip().title()
+
+    profile_card = "Name: " + clean_name + " | Role: " + \
+        clean_role + " | Company: " + clean_company
+    return profile_card
+
+
+user1_card = format_profile("mOsEs ", "bAckEnd dEvElopEr ", " innovempia ")
+print(user1_card)
+
+user1_card = format_profile(" pRoMisE ", " frOnT eNd ", " gOoGlE ")
+print(user1_card)
 
 
 
@@ -23,26 +28,13 @@ def format_profile(raw_name = "clean_name", raw_role = "clean_role", raw_company
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#user1
+# user1
 # price1 = 100
 # tax1 = price1 * 0.10
 # total1 = price1 + tax1
 # print("Total is " + str(total1))
 
-#user2
+# user2
 # price2 = 50
 # tax2 = price2 * 0.10
 # total2 = price2 + tax2
@@ -51,24 +43,24 @@ def format_profile(raw_name = "clean_name", raw_role = "clean_role", raw_company
 # def say_hello():
 #     # print("Hello, welcome to Innovempia!")
 #     # print("We are glad you are here.")
-    
+
 #     # print("Hello, welcome to Innovempia!")
-    
+
 #     def greet_user(name):
 #         print("Hello " + name + "!")
-        
+
 #     greet_user("Moses")
 #     greet_user("Promise")
-    
-    
+
+
 #     def introduce(name, role):
 #         print("Name: " + name)
 #         print("Role: " + role)
 #     introduce("Moses", "Backend Developer")
-    
+
 # def greet_user(name, company="Innovempia"):
 #         print("Hello, " + name + " from " + company)
-        
+
 # greet_user("Moses")
 
 # greet_user("Promise", "Google")
@@ -76,7 +68,7 @@ def format_profile(raw_name = "clean_name", raw_role = "clean_role", raw_company
 # def add_numbers(num1, num2):
 #     total = num1 + num2
 #     print(total)
-    
+
 # add_numbers(5, 10)
 
 # my_money = add_numbers(5,10)
