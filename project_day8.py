@@ -1,4 +1,4 @@
-def format_profile(raw_name="clean_name", raw_role="clean_role", raw_company="clean_company"):
+def format_profile(raw_name=" ", raw_role=" ", raw_company=" "):
     clean_name = raw_name.strip().title()
     clean_role = raw_role.strip().title()
     clean_company = raw_company.strip().title()
@@ -11,8 +11,8 @@ def format_profile(raw_name="clean_name", raw_role="clean_role", raw_company="cl
 user1_card = format_profile("mOsEs ", "bAckEnd dEvElopEr ", " innovempia ")
 print(user1_card)
 
-user1_card = format_profile(" pRoMisE ", " frOnT eNd ", " gOoGlE ")
-print(user1_card)
+user2_card = format_profile(" pRoMisE ", " frOnT eNd ", " gOoGlE ")
+print(user2_card)
 
 
 
