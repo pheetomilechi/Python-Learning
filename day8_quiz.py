@@ -15,8 +15,7 @@
 # 8. def do_math(x):
 #       x = x * 2
 #       return x
-#      result = do_math(5)
-#       print(result); The output of this code will be 10.
+#       print(result); The output of this code text 10 None.
 # 9. As soon as python hits a return statemet the function immediately terminates operations.
 # 10. def multiply(a, b):
 #       total = a * b
