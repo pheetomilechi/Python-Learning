@@ -1,3 +1,60 @@
+def safe_divide(num1, num2):
+    try:
+        result = num1 / num2
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero!")
+    else:
+        print("Result: " + str(result))
+
+def get_user_age():
+    try:
+        age = int(input("Enter your age: "))
+    except ValueError:
+        print("Invalid age format")
+    else:
+        return(age)
+    
+safe_divide(50, 5)
+safe_divide(50, 0)
+print("Testing age input...")
+
+user_age = get_user_age()
+print("User age is: " + str(user_age))
+
+    
+  
+   
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # def my_function():
 #     secret = "I am hidden"
     
