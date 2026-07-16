@@ -1,19 +1,19 @@
-profile = {
+profile = [
     "first_name": "Jude",
     "last_name": "Dering",
     "role": "Backend Developer",
     "company": "Innovempia"
-}
+]
 
 profile["skills"] = "Python", "Git", "Dictionaries"
 
 profile["role"] = "Senior Backend Developer"
 
-# print(profile.get("email", "Email not found"))
+print(profile.get("email", "Email not found"))
 
 
 del profile ["company"]
-# print(profile)
+print(profile)
 
 print("=== API USER PROFILE RESPONSE === ")
 
