@@ -8,14 +8,37 @@
 #     print("I work at " + company)
 # show_company()
 
-score = 10
+# score = 10
 
-def add_points():
+# def add_points():
     
-    global score
+#     global score
+#     score = score + 5
     
-    score = score + 5
+#     add_points()
+#     print(score)
+
+# try:
+#     age = int(input("Enter age: "))
+#     print("You are " + str(age) + " years old. ")
     
-    add_points()
-    
-    print(score)
+# except:
+#     print("Error: That was not a valid number!")
+
+# try: 
+#     number = int(input("Enter a number to divide 100 by: "))
+#     result = 100 / number
+#     print("Result is " + str(result))
+# except ValueError:
+#     print("You didn't enter a number!")
+# except ZeroDivisionError:
+#     print("You cannot divide by zero")
+
+# try:
+#     number = int(input("Enter number: "))
+# except ValueError:
+#     print("Invalid number!")
+# else:
+#     print("Success! Your number was " + str(number))
+# finally:
+#     print("Thank you for using the Innovempia calculator.")
