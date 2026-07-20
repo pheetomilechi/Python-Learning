@@ -1,15 +1,15 @@
+import helpers
+import requests
 
+response = requests.get("https://jsonplaceholder.typicode.com/users/2")
 
+data = response.json()
 
-
-
-
-
-
-
-
-
-
+company_name = data["company"]["name"]
+clean_name = helpers.text(data("name"))
+print("===LIVE API DATA===")
+print("User: " + str(clean_name))
+print("Company: " + str(company_name))
 
 
 
