@@ -1,14 +1,14 @@
-# 1. A local variable is a variable created inside a fucntion while a global variable is a variable created outside a function.
+# 1. A local variable is a variable created inside a function while a global variable is a variable created outside a function.
 # 2. Yes, a function can read a global variable and if it tries to modify it, it works only if you use a global keyword.
 # 3. Global keyword is used inside a function to modify a global variable.
 # 4. Unhandled error handling is dangerous in backend development because it crashes the processes and corrupts data.
-# 5. The two keywords in error handling is "ValueError" and "ZeroDivisionError".
+# 5. The two keywords in error handling is "try" and "except".
 # 6. try:
-#       "hello" = int()
-#     except:
+#       int("hello")
+#     except ValueError:
 #       print("Conversion failed")
 # 7. Except block tends to catch the error from the risky code and runs it without killing the program while else block runs only if the try block succeeds.
-# 8. The finally block runs the risky code whether the code succeeds or crashes.
+# 8. The finally block runs cleanup code (like closing a file) no matter what happened in the try block.
 # 9. try:
 #       x = 10 / 0
 #    except ZeroDivisionError:
