@@ -18,6 +18,11 @@
 # file.write("This is the second line.")
 # file.close()
 
-file = open("output.txt", "a")
-file.write("\nThis is a new line added at the end.")
-file.close()
+# file = open("output.txt", "a")
+# file.write("\nThis is a new line added at the end.")
+# file.close()
+
+
+# with open("sample.txt", "r") as file:
+#     content = file.read()
+#     print(content)
