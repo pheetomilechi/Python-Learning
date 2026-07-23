@@ -13,7 +13,11 @@
 # print(lines_list)
 # file.close()
 
-file = open("output.txt", "w")
-file.write("This is the first line. \n")
-file.write("This is the second line.")
+# file = open("output.txt", "w")
+# file.write("This is the first line. \n")
+# file.write("This is the second line.")
+# file.close()
+
+file = open("output.txt", "a")
+file.write("\nThis is a new line added at the end.")
 file.close()
